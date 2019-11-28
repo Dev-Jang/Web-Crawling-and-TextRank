@@ -9,8 +9,11 @@ Web Crawling &amp; TextRank with python3
 - To crawl only Naver blog posts through Naver search
 
 <b>Process</b>
-- 1
-- 2
+- 검색단어 입력
+- 검색페이지 객체로 파싱
+- 검색건수 출력
+- 검색번호 입력
+- 제목과 내용 출력
 
 <code><pre><b>Execution result</b>
 > 검색단어 : [입력]
