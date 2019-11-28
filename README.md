@@ -19,8 +19,6 @@ Web Crawling &amp; TextRank with python3
 - 검색번호 입력
 - 제목과 내용 출력
 
-<br>
-
 <code><pre><b>Execution result</b>
 > 검색단어 : [입력]
 검색된 결과 <건수> 건
@@ -50,8 +48,6 @@ Web Crawling &amp; TextRank with python3
 - TF-IDF Model
 - Generate graph
 - Apply TextRank
-
-<br>
 
 <code><pre><b>Execution result</b>
 <요약>
