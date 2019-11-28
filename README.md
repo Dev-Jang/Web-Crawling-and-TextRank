@@ -5,13 +5,13 @@ Web Crawling &amp; TextRank with python3
 
 ## Crawling.py
 
-### Function
+<b>Function
 - To crawl only Naver blog posts through Naver search
 
-### Process
+<b>Process
 
 
-### Execution result
+<b>Execution result
 <code><pre>
 > 검색단어 : [입력]
 검색된 결과 <건수> 건
