@@ -79,7 +79,7 @@ def get_ranks(graph, d=0.85):       # d = damping factor
     ranks = np.linalg.solve(A, B)   # 연립방정식 Ax = b
     return {idx: r[0] for idx, r in enumerate(ranks)}
 
-def summarize(sent_num=3):
+def summarize(sorted_sent_rank_idx, sentences, sent_num=3):
     summary = []
     index=[]
     for idx in sorted_sent_rank_idx[:sent_num]:
@@ -91,7 +91,7 @@ def summarize(sent_num=3):
 
     return summary
 
-def keywords(word_num=30):
+def keywords(words_graph, idx2word, word_num=30):
     rank_idx = get_ranks(words_graph)
     sorted_rank_idx = sorted(rank_idx, key=lambda k: rank_idx[k], reverse=True)
     
@@ -119,8 +119,8 @@ def main():
     word_rank_idx = get_ranks(words_graph)
     sorted_word_rank_idx = sorted(word_rank_idx, key=lambda k: word_rank_idx[k], reverse=True)
 
-    for row in summarize(3):
+    for row in summarize(sorted_sent_rank_idx, sentences, 3):
         print(row)
-    print('keywords :', keywords())
+    print('keywords :', keywords(words_graph, idx2word))
 
 main()
