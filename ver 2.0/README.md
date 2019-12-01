@@ -1,35 +1,43 @@
-# Web-Crawling-and-TextRank (Ver 1.0)
+# Web-Crawling-and-TextRank (Ver 2.0)
 
-Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
+Ver 1.0 에서 Boilerpipe 를 newspaper 모듈로 대체.
 
-각각의 파일로는 실행가능.
+두 파일 호환 가능.
 
 <br>
 <br>
 
-## Crawling.py
+## run.py
 
 <br>
 
 <b>Function</b>
-- To crawl only Naver blog posts through Naver search
+- To crawl text through Naver search
+- Keyword Comparison
 
 <br>
 
 <b>Process</b>
 - 검색단어 입력
 - 검색건수 출력
-- 검색번호 입력
+- 검색모드 선택
+  1. 10 줄 요약
+  2. 핵심키워드 비교
 - 제목과 내용 출력
 
-<code><pre><b>Execution result</b>
+<pre><code><b>Execution result</b>
 > 검색단어 : [입력]
 검색된 결과 <건수> 건
 > 검색번호(1-1000) : [입력]
+***************************
+모드를 선택해주세요.
+1. 10 Line Summarize
+2. Keyword Comparison
+> 입력(숫자만) : [입력]
 ㅡ 제목 : <포스트 제목>
 ㅡ 내용
 <포스트 내용(텍스트)>
-</pre></code>
+</code></pre>
 
 <br>
 <br>
@@ -51,11 +59,6 @@ Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
 - TF-IDF Model
 - Generate graph
 - Apply TextRank
-
-<code><pre><b>Execution result</b>
-<요약>
-keywords : <키워드 리스트>
-</pre></code>
 
 <br>
 <br>
