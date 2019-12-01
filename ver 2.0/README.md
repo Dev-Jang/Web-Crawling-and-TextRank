@@ -34,6 +34,7 @@ Ver 1.0 에서 Boilerpipe 를 newspaper 모듈로 대체.
 1. 10 Line Summarize
 2. Keyword Comparison
 > 입력(숫자만) : [입력]
+***************************
 - 제목 : <포스트 제목>
 - 내용
 <포스트 내용(텍스트)>
