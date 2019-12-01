@@ -53,3 +53,8 @@ Web Crawling &amp; TextRank with python3
 <요약>
 keywords : <키워드 리스트>
 </pre></code>
+
+<br>
+
+## Reference
+https://excelsior-cjh.tistory.com/93
