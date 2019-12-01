@@ -1,8 +1,8 @@
 # Web-Crawling-and-TextRank (Ver 2.0)
 
-Ver 1.0 에서 Boilerpipe 를 newspaper 모듈로 대체.
+Replaced BoilerPipe with the Newspaper module.
 
-두 파일 호환 가능.
+Both files are compatible and run successfully.
 
 <br>
 <br>
@@ -13,17 +13,17 @@ Ver 1.0 에서 Boilerpipe 를 newspaper 모듈로 대체.
 
 <b>Function</b>
 - To crawl text through Naver search
-- Keyword Comparison
+- Key Keyword Comparison Output
 
 <br>
 
 <b>Process</b>
-- 검색단어 입력
-- 검색건수 출력
-- 검색모드 선택
-  1. 10 줄 요약
-  2. 핵심키워드 비교
-- 제목과 내용 출력
+- Enter search word
+- Search count output
+- Select search mode
+  1. 10 line summary
+  2. Keyword Comparison
+- Print title and content
 
 <pre><code><b>Execution result</b>
 
