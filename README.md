@@ -1,5 +1,4 @@
 # Web-Crawling-and-TextRank (Ver 1.0)
-Web Crawling &amp; TextRank with python3
 
 Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
 
