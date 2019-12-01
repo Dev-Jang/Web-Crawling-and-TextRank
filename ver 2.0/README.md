@@ -26,6 +26,7 @@ Ver 1.0 에서 Boilerpipe 를 newspaper 모듈로 대체.
 - 제목과 내용 출력
 
 <pre><code><b>Execution result</b>
+
 > 검색단어 : [입력]
 검색된 결과 <건수> 건
 > 검색번호(1-1000) : [입력]
