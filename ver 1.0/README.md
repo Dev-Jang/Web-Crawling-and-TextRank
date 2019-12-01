@@ -1,8 +1,8 @@
 # Web-Crawling-and-TextRank (Ver 1.0)
 
-Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
+There is a problem that you can not use BoilerPipe and TextRank module at the same time.
 
-각각의 파일로는 실행가능.
+But each file can be run.
 
 <br>
 <br>
@@ -17,10 +17,10 @@ Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
 <br>
 
 <b>Process</b>
-- 검색단어 입력
-- 검색건수 출력
-- 검색번호 입력
-- 제목과 내용 출력
+- Enter search word
+- Search count output
+- Enter search number
+- Print title and content
 
 <pre><code><b>Execution result</b>
 
@@ -58,6 +58,16 @@ Boilerpipe3 와 TextRank 모듈을 동시에 사용할 수 없어서 실패.
 <요약>
 keywords : <키워드 리스트>
 </code></pre>
+
+<br>
+<br>
+
+## food.xlsx
+
+<br>
+
+<b>About</b>
+- Contains keywords related to food
 
 <br>
 <br>
